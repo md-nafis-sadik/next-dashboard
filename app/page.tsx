@@ -14,12 +14,15 @@ export default function Page() {
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
           <p className={`text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
+            <strong>Welcome.</strong> This is an Nextjs dashboard App {' '}
+          , by <a href="https://www.linkedin.com/in/md-nafis-sadik/" className="text-blue-500">
+              Md. Nafis Sadik
             </a>
-            , brought to you by Vercel.
           </p>
+          <div className=''>
+              <div className='text-xs'><b className='mr-2'>Email:</b>user@nextmail.com</div>
+              <div className='text-xs'><b className='mr-2'>Password:</b>123456</div>
+            </div>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
